@@ -1,4 +1,4 @@
-# cart, C5.0, KNN 10-fold cross validation on wisconsion breast canser dataset
+# cart, C5.0, KNN 10-fold cross validation on wisconsion breast cancer dataset
 
 rm(list=ls(all=TRUE))
 lib<-"d:\\qjt\\R\\mylibrary"
