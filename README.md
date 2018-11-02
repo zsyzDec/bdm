@@ -14,4 +14,5 @@
 
 (3)https://pan.baidu.com/s/1_6Ekn5X3HhtSdglAI37WIQ 下载需要的库
 
-(4) cart-c50-knn-breast.R是使用cart, cart-prune, C50, Knn在wisconsion breast cancer数据集上进行的10折交叉确认评价模型性能 
+(4) cart-c50-knn-breast.R是使用cart, cart-prune, C50, Knn在wisconsion breast cancer数据集上进行的10折交叉确认评价模型性能。
+cart-c50-knn-breast（normallized）.R是把数据集进行了规范化后进行的实验。
