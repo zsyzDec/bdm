@@ -21,6 +21,8 @@ adult_cart_c50.R 在训练集上训练cart和c50模型
 
 adult_knn.R 训练KNN模型
 
+adult_SVM.R 训练SVM模型
+
 最后挑选C50在整个训练集上训练模型，在测试集上测试结果
 
 (6)supervised_ratio.R包含两个函数supervised_ratio和woe，用于将categorical数据转换成数值类型
