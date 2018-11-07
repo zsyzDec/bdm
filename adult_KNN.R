@@ -2,6 +2,7 @@
 rm(list=ls(all=TRUE))
 .libPaths('d:/qjt/r/mylibrary')
 library(class)
+library(dummies)
 
 adult<-read.table("adult.data",sep=",",header=F,strip.white=TRUE)
 
