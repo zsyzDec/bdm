@@ -1,4 +1,4 @@
-# A function for supervised ration
+# The functions for supervised ratio and WoE
 # allen -- 2018.11
 # 
 # data is a data frame
