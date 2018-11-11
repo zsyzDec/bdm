@@ -31,7 +31,7 @@ woe<-function(dat, dependent, independent, positive){
         # browser()
         ci <- as.numeric(tab[tab$Group.1==x & tab$Group.2==positive,][3])
         ni <- as.numeric(tab[tab$Group.1==x & tab$Group.2!=positive,][3])
-        return ((ci*TN)/(ni*TC))
+        return (log((ci*TN)/(ni*TC)))
     })
     return(unlist(r))
 }
