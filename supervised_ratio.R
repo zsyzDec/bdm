@@ -29,8 +29,8 @@ woe<-function(dat, dependent, independent, positive){
                    FUN=sum)
     r<-sapply(X=dat[,independent], FUN=function(x){
         # browser()
-        ci <- tab[tab$Group.1==x & tab$Group.2==positive,][3]
-        ni <- tab[tab$Group.1==x & tab$Group.2!=positive,][3]
+        ci <- as.numeric(tab[tab$Group.1==x & tab$Group.2==positive,][3])
+        ni <- as.numeric(tab[tab$Group.1==x & tab$Group.2!=positive,][3])
         return ((ci*TN)/(ni*TC))
     })
     return(unlist(r))
