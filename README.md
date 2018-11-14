@@ -30,5 +30,7 @@ adult_SVM.R 训练SVM模型
 （7）神经网络
 
 nn_fit.R是用神经网络做函数拟合
+
 nn_booston.R在boston housing value数据集上做回归预测
+
 nn_multiclass.R做多类分类
