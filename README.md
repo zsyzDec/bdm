@@ -26,3 +26,9 @@ adult_SVM.R 训练SVM模型
 最后挑选C50在整个训练集上训练模型，在测试集上测试结果
 
 (6)supervised_ratio.R包含两个函数supervised_ratio和woe，用于将categorical数据转换成数值类型
+
+（7）神经网络
+
+nn_fit.R是用神经网络做函数拟合
+nn_booston.R在boston housing value数据集上做回归预测
+nn_multiclass.R做多类分类
