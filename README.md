@@ -34,3 +34,10 @@ nn_fit.R是用神经网络做函数拟合
 nn_booston.R在boston housing value数据集上做回归预测
 
 nn_multiclass.R做多类分类
+
+(7)Ensemble
+adaboost_baggin_cart_RF.R是adaboost, bagging, cart和随机森林在german credit数据集的比较程序
+
+boostedtree.R是在german credit数据集上的boosted Tree的程序
+
+boostedtree_multi.R是用boosted tree做一个多类分类的示例
