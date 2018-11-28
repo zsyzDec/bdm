@@ -1,40 +1,41 @@
-ÒÆ¶¯¿Í»§Á÷Ê§Êı¾İ¼¯
+ç§»åŠ¨å®¢æˆ·æµå¤±æ•°æ®é›†
 
-Ã¿ĞĞÃèÊöÒ»¸ö¿Í»§µÄĞÅÏ¢£¬Ò»¹²20¸öÊôĞÔ£¨ÌØÕ÷£©£¬×îºóÒ»ÁĞÊÇÄ¿±êÁĞ£¬¸ø³ö¿Í»§ÊÇ·ñÁ÷Ê§µÄ±êÇ©¡£
-ÎŞÈ±Ê§Öµ
+æ¯è¡Œæè¿°ä¸€ä¸ªå®¢æˆ·çš„ä¿¡æ¯ï¼Œä¸€å…±20ä¸ªå±æ€§ï¼ˆç‰¹å¾ï¼‰ï¼Œæœ€åä¸€åˆ—æ˜¯ç›®æ ‡åˆ—ï¼Œç»™å‡ºå®¢æˆ·æ˜¯å¦æµå¤±çš„æ ‡ç­¾ã€‚
+æ— ç¼ºå¤±å€¼
 
-ÊôĞÔÃèÊö
+å±æ€§æè¿°
 
-1. Customer ID£º±àºÅ
-2. gender£ºĞÔ±ğ female, male
-3. SeniorCitizen£ºÊÇ·ñÊÇÀÏÄêÈË(1, 0)
-4. Partner£ºÊÇ·ñÓĞ¸¸Ä¸(Yes, No)
-5. Dependents£ºÊÇ·ñÓĞÇ×Êô(Yes, No)
-6. tenure£º¿Í»§ÔÚ¹«Ë¾¹¤×÷µÄÔÂÊı
-7. PhoneService£ºÊÇ·ñ¿Í»§ÓĞ¹Ì¶¨µç»°·şÎñ(Yes, No)
-8. MultipleLines£ºÊÇ·ñ¿ÉÒÔÓĞ¶à¸ö¹Ì»°·şÎñ(Yes, No, No phone service)
-9. InternetService£º¿Í»§µÄinternet·şÎñÌá¹©ÉÌ (DSL, Fiber optic, No)
-10. OnlineSecurity£º¿Í»§ÊÇ·ñÓĞonline security ·şÎñ(Yes, No, No internet service)
-11. OnlineBackup£º¿Í»§ÊÇ·ñÓĞonline backup·şÎñ(Yes, No, No internet service)
-12. DeviceProtection£º¿Í»§ÊÇ·ñÓĞdevice protection·şÎñ(Yes, No, No internet service)
-13. TechSupport£º¿Í»§ÊÇ·ñÓĞtech support·şÎñ(Yes, No, No internet service)
-14. StreamingTV:¿Í»§ÊÇ·ñÓĞstreaming TV·şÎñ(Yes, No, No internet service)
-15. StreamingMovies£º¿Í»§ÊÇ·ñÓĞstreaming movies·şÎñ(Yes, No, No internet service)
-16. Contract£º¿Í»§ºÏÍ¬ÆÚ(Month-to-month, One year, Two year)
-17. PaperlessBilling£ºÊÇ·ñ¿Í»§ÓĞÎŞÖ½»¯ÕËµ¥·şÎñ(Yes, No)
-18. PaymentMethod£º¿Í»§µÄÖ§¸¶·½Ê½(Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))
-19. MonthlyCharges£ºÃ¿ÔÂ¿Í»§Ó¦½É·ÑÓÃ
-20. TotalCharges£ºµ±Ç°¿Í»§½É·Ñ×ÜÁ¿
-21. Churn£ºÊÇ·ñ¿Í»§Á÷Ê§(Yes or No)
+1. Customer IDï¼šç¼–å·
+2. genderï¼šæ€§åˆ« female, male
+3. SeniorCitizenï¼šæ˜¯å¦æ˜¯è€å¹´äºº(1, 0)
+4. Partnerï¼šæ˜¯å¦æœ‰çˆ¶æ¯(Yes, No)
+5. Dependentsï¼šæ˜¯å¦æœ‰äº²å±(Yes, No)
+6. tenureï¼šå®¢æˆ·åœ¨å…¬å¸å·¥ä½œçš„æœˆæ•°
+7. PhoneServiceï¼šæ˜¯å¦å®¢æˆ·æœ‰å›ºå®šç”µè¯æœåŠ¡(Yes, No)
+8. MultipleLinesï¼šæ˜¯å¦å¯ä»¥æœ‰å¤šä¸ªå›ºè¯æœåŠ¡(Yes, No, No phone service)
+9. InternetServiceï¼šå®¢æˆ·çš„internetæœåŠ¡æä¾›å•† (DSL, Fiber optic, No)
+10. OnlineSecurityï¼šå®¢æˆ·æ˜¯å¦æœ‰online security æœåŠ¡(Yes, No, No internet service)
+11. OnlineBackupï¼šå®¢æˆ·æ˜¯å¦æœ‰online backupæœåŠ¡(Yes, No, No internet service)
+12. DeviceProtectionï¼šå®¢æˆ·æ˜¯å¦æœ‰device protectionæœåŠ¡(Yes, No, No internet service)
+13. TechSupportï¼šå®¢æˆ·æ˜¯å¦æœ‰tech supportæœåŠ¡(Yes, No, No internet service)
+14. StreamingTV:å®¢æˆ·æ˜¯å¦æœ‰streaming TVæœåŠ¡(Yes, No, No internet service)
+15. StreamingMoviesï¼šå®¢æˆ·æ˜¯å¦æœ‰streaming moviesæœåŠ¡(Yes, No, No internet service)
+16. Contractï¼šå®¢æˆ·åˆåŒæœŸ(Month-to-month, One year, Two year)
+17. PaperlessBillingï¼šæ˜¯å¦å®¢æˆ·æœ‰æ— çº¸åŒ–è´¦å•æœåŠ¡(Yes, No)
+18. PaymentMethodï¼šå®¢æˆ·çš„æ”¯ä»˜æ–¹å¼(Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))
+19. MonthlyChargesï¼šæ¯æœˆå®¢æˆ·åº”ç¼´è´¹ç”¨
+20. TotalChargesï¼šå½“å‰å®¢æˆ·ç¼´è´¹æ€»é‡
+21. Churnï¼šæ˜¯å¦å®¢æˆ·æµå¤±(Yes or No)
 
 
-Ìá½»µÄ½á¹ûÎÄ¼ş£¬Ó¦¸ÃÓĞ1000ĞĞ
-Ã¿ĞĞ»òÕßÊÇ¡°Yes¡±»òÕßÊÇ¡°No¡±£¬×¢Òâ´óĞ¡Ğ´
+æäº¤çš„ç»“æœæ–‡ä»¶ï¼Œåº”è¯¥æœ‰1000è¡Œ
+æ¯è¡Œæˆ–è€…æ˜¯â€œYesâ€æˆ–è€…æ˜¯â€œNoâ€ï¼Œæ³¨æ„å¤§å°å†™
 
-Ìá½»½á¹ûµ½resultÎÄ¼ş¼Ğ£¬ÒÔĞÕÃû+±àºÅ.txt·½Ê½ÃüÃû¡£ÀıÈç£¬Çñ½­ÌÎ1.txt¡£Ã¿¸öÍ¬Ñ§×î¶àÌá½»Èı¸öÎÄ¼ş¡£¼´Ö»ÄÜÓĞ
-Çñ½­ÌÎ1.txt
-Çñ½­ÌÎ2.txt
-Çñ½­ÌÎ3.txt
-Èı¸öÎÄ¼ş
+æäº¤ç»“æœåˆ°resultæ–‡ä»¶å¤¹ï¼Œä»¥å§“å+ç¼–å·.txtæ–¹å¼å‘½åã€‚ä¾‹å¦‚ï¼Œé‚±æ±Ÿæ¶›1.txtã€‚æ¯ä¸ªåŒå­¦æœ€å¤šæäº¤ä¸‰ä¸ªæ–‡ä»¶ã€‚å³åªèƒ½æœ‰
+é‚±æ±Ÿæ¶›1.txt
+é‚±æ±Ÿæ¶›2.txt
+é‚±æ±Ÿæ¶›3.txt
+ä¸‰ä¸ªæ–‡ä»¶
 
+é‡‡ç”¨balanced Accuracyåšä¸ºè¯„æµ‹æ ‡å‡†
 
